@@ -1,0 +1,32 @@
+@relation guardaroupa
+
+
+@attribute estacao {verao, outono, inverno, primavera}
+@attribute cor {clara, escura}
+@attribute nova {sim, nao}
+@attribute estilo {casual, formal, punk}
+
+@data
+primavera, clara, nao, casual
+primavera, escura, sim, formal
+inverno, escura, nao, punk
+verao, clara, nao, casual
+outono, escura, nao, punk
+primavera, clara, sim, formal
+verao, clara, nao, casual
+outono, escura, sim, punk
+inverno, escura, sim, punk
+verao, clara, nao, casual
+verao, escura, sim, formal
+outono, clara, sim, formal
+inverno, escura, nao, punk
+outono, escura, sim, punk
+primavera, escura, sim, punk
+inverno, escura, nao, punk
+outono, clara, sim, formal
+verao, escura, sim, formal
+primavera, clara, nao, casual
+verao, clara, nao, casual
+
+
+
